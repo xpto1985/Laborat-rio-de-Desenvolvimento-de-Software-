@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginTeste.Registar"
+             Shell.NavBarIsVisible="False"
+             xmlns:handless="clr-namespace:LoginTeste.Handlers"
+             Title="Registar">
+
+     <Grid RowDefinitions="1*,8*,1*">
+      <!--
+        <Frame BackgroundColor="Gray" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0"
+               Margin="0,-80,-80,0"
+               HeightRequest="250"
+               WidthRequest="250"
+               CornerRadius="125">
+        </Frame>
+
+        <Frame BackgroundColor="{x:StaticResource Primary}" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0"
+               Margin="0,-90,-90,0"
+               HeightRequest="250"
+               WidthRequest="250"
+               CornerRadius="125">
+        </Frame>
+         -->
+        <Frame BackgroundColor="{x:StaticResource DashboardBackground}"
+               Grid.Row="1" VerticalOptions="CenterAndExpand"
+               Margin="10,0,10,0">
+
+            <VerticalStackLayout Spacing="25">
+                <Label Text="Registar" FontSize="28" FontAttributes="Bold"/>
+
+                <Frame Padding="10" BorderColor="Transparent" HasShadow="False" CornerRadius="15">
+                    <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
+                        <Image VerticalOptions="Center" Source="user.png" HeightRequest="25" WidthRequest="25"/>
+                        <handless:BorderlessEntry VerticalOptions="Center" Placeholder="Nome" Grid.Column="1"/>
+                    </Grid>
+                </Frame>
+
+                <Frame Padding="10" BorderColor="Transparent" HasShadow="False">
+                    <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
+                        <Image VerticalOptions="Center" Source="email.png" HeightRequest="25" WidthRequest="25"/>
+                        <handless:BorderlessEntry VerticalOptions="Center" Placeholder="Email" Grid.Column="1"/>
+                    </Grid>
+                </Frame>
+
+                <Frame Padding="10" BorderColor="Transparent" HasShadow="False" CornerRadius="15">
+                    <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
+                        <Image VerticalOptions="Center" Source="mobile.png" HeightRequest="25" WidthRequest="25"/>
+                        <handless:BorderlessEntry VerticalOptions="Center" Placeholder="Telefone" Grid.Column="1"/>
+                    </Grid>
+                </Frame>
+
+                <Frame Padding="10" BorderColor="Transparent" HasShadow="False">
+                    <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
+                        <Image VerticalOptions="Center" Source="password.png" HeightRequest="25" WidthRequest="25"/>
+                        <handless:BorderlessEntry VerticalOptions="Center" Placeholder="Password" IsPassword="True" Grid.Column="1"/>
+                    </Grid>
+                </Frame>
+
+                <Button CornerRadius="15" HeightRequest="60"  Text="Registar" FontSize="20" FontAttributes="Bold" BackgroundColor="SlateGray"/>
+
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing ="10">
+
+                  <Label FontAttributes="Bold" TextColor="Gray" Text="Ja tens conta?" VerticalTextAlignment="Center"/>
+                    <Label FontAttributes="Bold" TextColor="{x:StaticResource Primary}" Text="Login"/>
+
+
+                <HorizontalStackLayout.GestureRecognizers>
+
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_Login"/>  
+
+                </HorizontalStackLayout.GestureRecognizers>
+
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+
+        </Frame>
+         <!--
+         <Frame BackgroundColor="Gray"
+               Grid.Row="2" HorizontalOptions="StartAndExpand"
+               Padding="0"
+               Margin="0,0,0,-180"
+               HeightRequest="250"
+               WidthRequest="250"
+               CornerRadius="125">
+        </Frame>
+
+        <Frame BackgroundColor="{x:StaticResource Primary}"
+               VerticalOptions="EndAndExpand"
+               Grid.Row="2"
+               HorizontalOptions="StartAndExpand"
+               Padding="0"
+               Margin="0,0,0,-200"
+               HeightRequest="250"
+               WidthRequest="250"
+               CornerRadius="125">
+        </Frame>
+         -->
+
+    </Grid>
+</ContentPage>

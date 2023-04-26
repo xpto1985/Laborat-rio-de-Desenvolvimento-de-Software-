@@ -1,0 +1,1 @@
+\\Mac\Home\Downloads\DevWin\MAUI.NET\loginTeste\LoginTeste\LoginTeste.csproj;arm64

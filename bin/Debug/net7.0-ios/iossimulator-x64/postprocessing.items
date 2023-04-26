@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="LoginTeste.app/LoginTeste">
+      <BCSymbolMapName>LoginTeste.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>LoginTeste.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>LoginTeste.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

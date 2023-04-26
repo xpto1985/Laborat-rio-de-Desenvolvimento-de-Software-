@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = LoginTeste
+build_property.ProjectDir = /Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/
+
+[/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/Registar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.Registar.xaml
+build_metadata.AdditionalFiles.TargetPath = Registar.xaml
+build_metadata.AdditionalFiles.RelativePath = Registar.xaml
+
+[/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/jmvgouveia/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/SignInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.SignInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SignInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SignInPage.xaml

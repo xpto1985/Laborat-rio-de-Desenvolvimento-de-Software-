@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LoginTeste
+build_property.ProjectDir = \\Mac\Home\Downloads\DevWin\MAUI.NET\loginTeste\LoginTeste\
+
+[//Mac/Home/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[//Mac/Home/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[//Mac/Home/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[//Mac/Home/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/Registar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.Registar.xaml
+build_metadata.AdditionalFiles.TargetPath = Registar.xaml
+build_metadata.AdditionalFiles.RelativePath = Registar.xaml
+
+[//Mac/Home/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[//Mac/Home/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[//Mac/Home/Downloads/DevWin/MAUI.NET/loginTeste/LoginTeste/SignInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LoginTeste.SignInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SignInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SignInPage.xaml
