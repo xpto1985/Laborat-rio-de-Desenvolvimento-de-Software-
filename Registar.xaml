@@ -7,23 +7,7 @@
              Title="Registar">
 
      <Grid RowDefinitions="1*,8*,1*">
-      <!--
-        <Frame BackgroundColor="Gray" Grid.Row="0" HorizontalOptions="EndAndExpand"
-               Padding="0"
-               Margin="0,-80,-80,0"
-               HeightRequest="250"
-               WidthRequest="250"
-               CornerRadius="125">
-        </Frame>
-
-        <Frame BackgroundColor="{x:StaticResource Primary}" Grid.Row="0" HorizontalOptions="EndAndExpand"
-               Padding="0"
-               Margin="0,-90,-90,0"
-               HeightRequest="250"
-               WidthRequest="250"
-               CornerRadius="125">
-        </Frame>
-         -->
+    
         <Frame BackgroundColor="{x:StaticResource DashboardBackground}"
                Grid.Row="1" VerticalOptions="CenterAndExpand"
                Margin="10,0,10,0">
@@ -78,27 +62,7 @@
             </VerticalStackLayout>
 
         </Frame>
-         <!--
-         <Frame BackgroundColor="Gray"
-               Grid.Row="2" HorizontalOptions="StartAndExpand"
-               Padding="0"
-               Margin="0,0,0,-180"
-               HeightRequest="250"
-               WidthRequest="250"
-               CornerRadius="125">
-        </Frame>
-
-        <Frame BackgroundColor="{x:StaticResource Primary}"
-               VerticalOptions="EndAndExpand"
-               Grid.Row="2"
-               HorizontalOptions="StartAndExpand"
-               Padding="0"
-               Margin="0,0,0,-200"
-               HeightRequest="250"
-               WidthRequest="250"
-               CornerRadius="125">
-        </Frame>
-         -->
+      
 
     </Grid>
 </ContentPage>
